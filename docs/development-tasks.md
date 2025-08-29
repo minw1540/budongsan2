@@ -33,16 +33,16 @@
 ### Phase 1: 프로젝트 초기 설정 (우선순위: 최고)
 
 #### 1.1 프로젝트 기초 설정
-- [ ] **Next.js 14 (App Router) 프로젝트 초기화**
-- [ ] **TypeScript 설정 및 tsconfig.json 구성**
-- [ ] **ESLint 설정 (우선순위 최고)**
+- [x] **Next.js 14 (App Router) 프로젝트 초기화**
+- [x] **TypeScript 설정 및 tsconfig.json 구성**
+- [x] **ESLint 설정 (우선순위 최고)**
   - Next.js 기본 ESLint 규칙 적용
   - TypeScript ESLint 규칙 추가
   - 커스텀 규칙 설정 (any 타입 금지 등)
-- [ ] **Prettier 설정 (우선순위 최고)**
+- [x] **Prettier 설정 (우선순위 최고)**
   - 코딩 컨벤션에 맞는 포맷팅 규칙 설정
   - VSCode settings.json에 formatOnSave 활성화
-- [ ] **Git hooks 설정**
+- [x] **Git hooks 설정**
   - husky 초기화 및 설정
   - pre-commit hook: lint-staged로 ESLint 및 Prettier 체크
   - pre-push hook: TypeScript 컴파일 체크
@@ -62,13 +62,13 @@
 - [ ] **lucide-react 설치 (아이콘 라이브러리)**
 
 #### 1.3 환경 설정
-- [ ] **환경 변수 설정 (.env.local)**
+- [x] **환경 변수 설정 (.env.local)**
   - 국토교통부 API 서비스 키 설정 (URL 인코딩 필수)
   - API Base URL: `http://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev`
   - NODE_ENV 환경별 분리 (development, production)
   - .env.example 파일 생성 (실제 키 값 제외)
-- [ ] **절대 경로 import 설정 (@ 별칭)**
-- [ ] **디렉터리 구조 생성 (코딩 컨벤션 준수)**
+- [x] **절대 경로 import 설정 (@ 별칭)**
+- [x] **디렉터리 구조 생성 (코딩 컨벤션 준수)**
   ```
   /src
   ├── /app
@@ -96,7 +96,7 @@
       ├── data-parser.ts     // XML/JSON 변환 함수
       └── validation.ts      // 입력값 검증 함수
   ```
-- [ ] **Package Manager를 yarn으로 설정**
+- [x] **Package Manager를 yarn으로 설정**
 
 ### Phase 2: 타입 정의 및 데이터 모델 설계
 
