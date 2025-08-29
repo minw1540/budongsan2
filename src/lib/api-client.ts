@@ -38,7 +38,7 @@ export interface ApiResponse<T> {
  * 국토교통부 API 기본 설정
  */
 const API_CONFIG = {
-  BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || '',
+  BASE_URL: process.env['NEXT_PUBLIC_API_BASE_URL'] || '',
   DEFAULT_NUM_OF_ROWS: 100,
   MAX_RETRIES: 3,
   RETRY_DELAY: 1000, // 1초
@@ -49,7 +49,7 @@ const API_CONFIG = {
  */
 export function buildApiUrl(params: ApiRequestParams): string {
   const baseUrl =
-    API_CONFIG.BASE_URL || process.env.NEXT_PUBLIC_API_BASE_URL || '';
+    API_CONFIG.BASE_URL || process.env['NEXT_PUBLIC_API_BASE_URL'] || '';
   const searchParams = new URLSearchParams({
     serviceKey: params.serviceKey,
     LAWD_CD: params.lawdCd,
