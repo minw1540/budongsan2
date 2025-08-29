@@ -49,17 +49,17 @@
   - package.json에 lint-staged 설정 추가
 
 #### 1.2 핵심 의존성 패키지 설치
-- [ ] **Tailwind CSS 설치 및 설정**
-- [ ] **Shadcn/ui 컴포넌트 라이브러리 설정**
-- [ ] **SWR 설치 (서버 상태 관리)**
-- [ ] **Recharts 설치 (차트 라이브러리)**
-- [ ] **xml-js 설치 (국토부 API XML 파싱)**
-- [ ] **clsx 설치 (조건부 클래스 관리)**
-- [ ] **husky 설치 (Git hooks 관리)**
-- [ ] **lint-staged 설치 (staged 파일 린팅)**
-- [ ] **@types/xml-js 설치 (TypeScript 타입 정의)**
-- [ ] **@types/node 설치 (Node.js 타입 정의)**
-- [ ] **lucide-react 설치 (아이콘 라이브러리)**
+- [x] **Tailwind CSS 설치 및 설정**
+- [x] **Shadcn/ui 컴포넌트 라이브러리 설정**
+- [x] **SWR 설치 (서버 상태 관리)**
+- [x] **Recharts 설치 (차트 라이브러리)**
+- [x] **xml-js 설치 (국토부 API XML 파싱)**
+- [x] **clsx 설치 (조건부 클래스 관리)**
+- [x] **husky 설치 (Git hooks 관리)**
+- [x] **lint-staged 설치 (staged 파일 린팅)**
+- [x] **@types/xml-js 설치 (TypeScript 타입 정의)**
+- [x] **@types/node 설치 (Node.js 타입 정의)**
+- [x] **lucide-react 설치 (아이콘 라이브러리)**
 
 #### 1.3 환경 설정
 - [x] **환경 변수 설정 (.env.local)**
